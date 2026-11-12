@@ -1,0 +1,282 @@
+[
+  {
+    "id": "case_001",
+    "findings": "Chest radiograph demonstrates a 10 mm well-circumscribed nodule in the right upper lobe. Lungs are otherwise clear. No pneumothorax.",
+    "impression": "1 cm right upper lobe pulmonary nodule. No pneumothorax.",
+    "expected_safe": true,
+    "injected_error_type": null
+  },
+  {
+    "id": "case_002",
+    "findings": "There is a 1.5 cm hypodense lesion in the liver. No hemorrhage.",
+    "impression": "15 mm hepatic lesion. No hemorrhage.",
+    "expected_safe": true,
+    "injected_error_type": null
+  },
+  {
+    "id": "case_003",
+    "findings": "The lungs are clear. There is no pneumothorax or pleural effusion. Heart size is normal.",
+    "impression": "No pneumothorax or effusion. Clear lungs.",
+    "expected_safe": true,
+    "injected_error_type": null
+  },
+  {
+    "id": "case_004",
+    "findings": "There is a 4 mm non-obstructing calculus in the left kidney. No hydronephrosis. Right kidney is unremarkable.",
+    "impression": "4 mm non-obstructing left renal calculus. No hydronephrosis.",
+    "expected_safe": true,
+    "injected_error_type": null
+  },
+  {
+    "id": "case_005",
+    "findings": "Small bilateral pleural effusions. No pneumothorax. Heart size is mildly enlarged.",
+    "impression": "Small bilateral pleural effusions. No pneumothorax.",
+    "expected_safe": true,
+    "injected_error_type": null
+  },
+  {
+    "id": "case_006",
+    "findings": "Three views of the left wrist. There is no acute fracture or dislocation. Soft tissues are unremarkable.",
+    "impression": "No acute fracture of the left wrist.",
+    "expected_safe": true,
+    "injected_error_type": null
+  },
+  {
+    "id": "case_007",
+    "findings": "There is 50% stenosis of the left proximal ICA. Right carotid is widely patent. No hemorrhage.",
+    "impression": "50% stenosis of the left proximal ICA. No hemorrhage.",
+    "expected_safe": true,
+    "injected_error_type": null
+  },
+  {
+    "id": "case_008",
+    "findings": "There is consolidation in the right lower lobe consistent with pneumonia. No pleural effusion. No pneumothorax.",
+    "impression": "Right lower lobe pneumonia. No effusion or pneumothorax.",
+    "expected_safe": true,
+    "injected_error_type": null
+  },
+  {
+    "id": "case_009",
+    "findings": "A 2.3 cm lesion is seen in the right hepatic lobe. No intra-abdominal hemorrhage.",
+    "impression": "23 mm hepatic lesion in the right lobe of the liver. No hemorrhage.",
+    "expected_safe": true,
+    "injected_error_type": null
+  },
+  {
+    "id": "case_010",
+    "findings": "Noncontrast CT of the head. There is no intracranial hemorrhage, mass, or fracture. Ventricles are normal.",
+    "impression": "No intracranial hemorrhage or mass.",
+    "expected_safe": true,
+    "injected_error_type": null
+  },
+  {
+    "id": "case_011",
+    "findings": "There is an 8 mm nodule in the left thyroid. Right thyroid is homogeneous. No cervical mass.",
+    "impression": "8 mm left thyroid nodule. No mass.",
+    "expected_safe": true,
+    "injected_error_type": null
+  },
+  {
+    "id": "case_012",
+    "findings": "The study is negative for pneumothorax. Negative for pleural effusion. Cardiomediastinal silhouette is normal.",
+    "impression": "No pneumothorax. No effusion.",
+    "expected_safe": true,
+    "injected_error_type": null
+  },
+  {
+    "id": "case_013",
+    "findings": "There is a 12 mm solid nodule in the left upper lobe. No effusion. No pneumothorax.",
+    "impression": "1.2 cm left upper lobe nodule. No effusion or pneumothorax.",
+    "expected_safe": true,
+    "injected_error_type": null
+  },
+  {
+    "id": "case_014",
+    "findings": "A 3 mm ground-glass nodule is present in the right upper lobe. No pneumothorax.",
+    "impression": "3 cm right upper lobe ground-glass nodule. No pneumothorax.",
+    "expected_safe": false,
+    "injected_error_type": "MEASUREMENT_MISMATCH"
+  },
+  {
+    "id": "case_015",
+    "findings": "There is a 4 mm non-obstructing calculus in the left kidney. No hydronephrosis.",
+    "impression": "4 mm stone in the right kidney.",
+    "expected_safe": false,
+    "injected_error_type": "LATERALITY_CONFLICT"
+  },
+  {
+    "id": "case_016",
+    "findings": "There is no acute fracture of the distal radius. Soft tissues are normal.",
+    "impression": "Acute fracture of the distal radius.",
+    "expected_safe": false,
+    "injected_error_type": "NEGATION_FLIP"
+  },
+  {
+    "id": "case_017",
+    "findings": "The lungs are clear. There is no pneumothorax. Heart size is normal.",
+    "impression": "Small pneumothorax. Lungs otherwise clear.",
+    "expected_safe": false,
+    "injected_error_type": "NEGATION_FLIP"
+  },
+  {
+    "id": "case_018",
+    "findings": "There is a 2 cm mass in the right lung. No effusion. No pneumothorax.",
+    "impression": "2 cm mass in the left lung. No effusion.",
+    "expected_safe": false,
+    "injected_error_type": "LATERALITY_CONFLICT"
+  },
+  {
+    "id": "case_019",
+    "findings": "There is a 4 mm non-obstructing calculus in the left kidney. No hydronephrosis.",
+    "impression": "4 cm stone in the right kidney.",
+    "expected_safe": false,
+    "injected_error_type": "MEASUREMENT_MISMATCH"
+  },
+  {
+    "id": "case_020",
+    "findings": "Patchy opacities in the left lower lobe. There is no pleural effusion. No pneumothorax.",
+    "impression": "Left lower lobe pneumonia with moderate pleural effusion.",
+    "expected_safe": false,
+    "injected_error_type": "NEGATION_FLIP"
+  },
+  {
+    "id": "case_021",
+    "findings": "A 10 millimeter nodule is present in the right upper lobe. No pneumothorax.",
+    "impression": "1 centimetre right upper lobe nodule. No pneumothorax.",
+    "expected_safe": true,
+    "injected_error_type": null
+  },
+  {
+    "id": "case_022",
+    "findings": "There is a 10mm nodule. No effusion.",
+    "impression": "1.0 cm nodule. No effusion.",
+    "expected_safe": true,
+    "injected_error_type": null
+  },
+  {
+    "id": "case_023",
+    "findings": "The lesion measures 8-10 mm. No hemorrhage.",
+    "impression": "Lesion measures 0.8-1.0 cm. No hemorrhage.",
+    "expected_safe": true,
+    "injected_error_type": null
+  },
+  {
+    "id": "case_024",
+    "findings": "A 1.2 x 0.8 cm hepatic lesion. No hemorrhage.",
+    "impression": "12 x 8 mm hepatic lesion. No hemorrhage.",
+    "expected_safe": true,
+    "injected_error_type": null
+  },
+  {
+    "id": "case_025",
+    "findings": "THERE IS A 4 MM CALCULUS IN THE LEFT KIDNEY. NO HYDRONEPHROSIS.",
+    "impression": "4 mm left renal calculus.",
+    "expected_safe": true,
+    "injected_error_type": null
+  },
+  {
+    "id": "case_026",
+    "findings": "There is a 10\u00a0mm nodule in the right upper lobe. No pneumothorax.",
+    "impression": "1 cm right upper lobe nodule. No pneumothorax.",
+    "expected_safe": true,
+    "injected_error_type": null
+  },
+  {
+    "id": "case_027",
+    "findings": "The chest radiograph is unremarkable for pneumothorax. Heart size is normal.",
+    "impression": "No pneumothorax.",
+    "expected_safe": true,
+    "injected_error_type": null
+  },
+  {
+    "id": "case_028",
+    "findings": "The patient denies any fracture. Soft tissues are normal.",
+    "impression": "No fracture.",
+    "expected_safe": true,
+    "injected_error_type": null
+  },
+  {
+    "id": "case_029",
+    "findings": "The pleural space is free of effusion. No pneumothorax.",
+    "impression": "No effusion. No pneumothorax.",
+    "expected_safe": true,
+    "injected_error_type": null
+  },
+  {
+    "id": "case_030",
+    "findings": "The study is not without pleural effusion. Lungs are otherwise clear.",
+    "impression": "Pleural effusion is present.",
+    "expected_safe": true,
+    "injected_error_type": null
+  },
+  {
+    "id": "case_031",
+    "findings": "A 3 millimeter ground-glass nodule is present. No pneumothorax.",
+    "impression": "3 centimeter ground-glass nodule. No pneumothorax.",
+    "expected_safe": false,
+    "injected_error_type": "MEASUREMENT_MISMATCH"
+  },
+  {
+    "id": "case_032",
+    "findings": "The nodule measures 4-5 mm. No pneumothorax.",
+    "impression": "The nodule measures 4-5 cm. No pneumothorax.",
+    "expected_safe": false,
+    "injected_error_type": "MEASUREMENT_MISMATCH"
+  },
+  {
+    "id": "case_033",
+    "findings": "Left-sided pain. No fracture.",
+    "impression": "Right-sided pain. No fracture.",
+    "expected_safe": false,
+    "injected_error_type": "LATERALITY_CONFLICT"
+  },
+  {
+    "id": "case_034",
+    "findings": "LUL pneumonia. No effusion. No pneumothorax.",
+    "impression": "RUL pneumonia. No effusion. No pneumothorax.",
+    "expected_safe": false,
+    "injected_error_type": "LATERALITY_CONFLICT"
+  },
+  {
+    "id": "case_035",
+    "findings": "The wrist radiograph is unremarkable for fracture.",
+    "impression": "Acute fracture of the wrist.",
+    "expected_safe": false,
+    "injected_error_type": "NEGATION_FLIP"
+  },
+  {
+    "id": "case_036",
+    "findings": "The patient denies pneumothorax. Lungs are clear.",
+    "impression": "Small pneumothorax.",
+    "expected_safe": false,
+    "injected_error_type": "NEGATION_FLIP"
+  },
+  {
+    "id": "case_037",
+    "findings": "Cannot exclude a pulmonary mass. No pneumothorax.",
+    "impression": "Pulmonary mass is present. No pneumothorax.",
+    "expected_safe": false,
+    "injected_error_type": "NEGATION_FLIP"
+  },
+  {
+    "id": "case_038",
+    "findings": "The abdomen is free of hemorrhage. Bowel gas pattern is normal.",
+    "impression": "Intra-abdominal hemorrhage.",
+    "expected_safe": false,
+    "injected_error_type": "NEGATION_FLIP"
+  },
+  {
+    "id": "case_039",
+    "findings": "Cannot exclude a small pneumothorax.",
+    "impression": "No pneumothorax.",
+    "expected_safe": false,
+    "injected_error_type": "NEGATION_FLIP"
+  },
+  {
+    "id": "case_040",
+    "findings": "There is a 4 mm calculus on the left kidney. No hydronephrosis.",
+    "impression": "4 mm calculus on the right kidney.",
+    "expected_safe": false,
+    "injected_error_type": "LATERALITY_CONFLICT"
+  }
+]
