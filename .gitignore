@@ -218,3 +218,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Cursor & VS Code local workspace
+.cursor/
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
